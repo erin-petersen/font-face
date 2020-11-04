@@ -1,45 +1,125 @@
+
+*/FONTS ************************/
+@font-face{
+  font-family: handwriting;
+  src: url(letters/handwriting.ttf);
+}
+@font-face{
+  font-family: subway;
+  src: url(letters/subway/SubwayBlack.ttf);
+}
+@font-face{
+    font-family: kind_rich;
+    src: url(letters/kind_rich/Kind_Rich.tff):
+}
+/*********************************/
+
 body {
 display: flex;
 justify-content: center;
-background-color: #80e5ff;
+background: repeating-linear-gradient(
+  140deg,
+  #562C4C,
+  #562C4C 5px,
+  #612B5F 5px,
+  #612B5F 10px
+);
 }
+
+#slider{
+overflow: hidden;
+}
+
+#slider figure{
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+
+#slider figure img{
+  width: 25%;
+  float: left;
+}
+
+@keyframes slider{
+0% {
+left: 0;
+}
+20%  {
+  left: 0%;
+}
+25%  {
+left: -100%;
+}
+45%  {
+left: -100%;
+}
+50% {
+left: -200%;
+}
+70% {
+left: -200%;
+}
+75% {
+left: -300%;
+}
+95% {
+left: -300%;
+}
+100% {
+left:  -400%;
+}
+}
+
 
 #container{
   position: relative;
   top: 100px;
 }
 
+  #top-image {
+    display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  }
+
 #content-box{
   padding: 15px;
   padding-bottom: 30px;
   margin-bottom: 10px;
   width: 450px;
-  background: #FFF;
+  background: #b368b3;
+}
+h1{
+  font-family: kind_rich;
 }
 
 ul{
+  font-family: subway;
 list-style-type: none;
-padding: 0px;
+margin: 5px;
 display: flex;
-justify-content: left;
+justify-content: center;
 position: relative;
 }
 
 a{
+  font-family: subway;
 text-decoration: none;
 padding: 10px;
-background: white;
 }
 
 a:link {
-  color: ##0000b3;
+  color: #BE0E23;
 }
 a:visited {
-  color: #4d79ff;
+  color: #E373FF;
 }
 a:hover{
-background: #00ff80
+background: #E5275A;
 }
 a:active {
-  background: #ff80bf;
+  background: white;
 }
