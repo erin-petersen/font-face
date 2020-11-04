@@ -1,0 +1,45 @@
+body {
+display: flex;
+justify-content: center;
+background-color: #80e5ff;
+}
+
+#container{
+  position: relative;
+  top: 100px;
+}
+
+#content-box{
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  width: 450px;
+  background: #FFF;
+}
+
+ul{
+list-style-type: none;
+padding: 0px;
+display: flex;
+justify-content: left;
+position: relative;
+}
+
+a{
+text-decoration: none;
+padding: 10px;
+background: white;
+}
+
+a:link {
+  color: ##0000b3;
+}
+a:visited {
+  color: #4d79ff;
+}
+a:hover{
+background: #00ff80
+}
+a:active {
+  background: #ff80bf;
+}
