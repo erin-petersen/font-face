@@ -1,16 +1,16 @@
 
 */FONTS ************************/
 @font-face{
-  font-family: handwriting;
-  src: url(letters/handwriting.ttf);
+  font-family: Roboto;
+  src: url(letters/Roboto/RobotoCondensed-Regular.ttf);
 }
 @font-face{
   font-family: subway;
   src: url(letters/subway/SubwayBlack.ttf);
 }
 @font-face{
-    font-family: kind_rich;
-    src: url(letters/kind_rich/Kind_Rich.tff):
+    font-family: billy_signature;
+    src: url(letters/billy_signature/BillySignatureSlant.ttf);
 }
 /*********************************/
 
@@ -75,6 +75,7 @@ left:  -400%;
 
 
 #container{
+
   position: relative;
   top: 100px;
 }
@@ -93,7 +94,7 @@ left:  -400%;
   background: #b368b3;
 }
 h1{
-  font-family: kind_rich;
+  font-family: billy_signature;
 }
 
 ul{
